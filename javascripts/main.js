@@ -8,13 +8,13 @@ app.controller("laurensAnimalsCtrl", ($scope) => {
 		$scope.buttonLabel = "fuzzies????!";
 		$scope.animals = [
 	        {
-	          animal: "frog"
+	          animal: "http://data.whicdn.com/images/218851089/large.jpg"
 	        },
 	        {
-	          animal: "kitten"
+	          animal: "http://cuteimages.net/data/2015/5/when-the-thought-of-cookies-is-more-photos-cuteimages.net.jpg"
 	        },
 	        {
-	          animal: "giraffe"
+	          animal: "https://cookin5m2.files.wordpress.com/2014/12/classical-apple-pie-recipe-cookin5m2-14.jpg"
 	        }
 	      ];
 

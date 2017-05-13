@@ -18,7 +18,7 @@
 				<button class="col-xs-12 btn" ng-click="showSoul()">{{buttonLabel}}</button>
 				<div class="row" ng-show="animalItemShow">
 					<div class="col-xs-12 col-xs-offset-3" id="results" ng-repeat="thingy in animals">
-						<h3>{{thingy.animal}}<h3>
+						<img ng-src="{{thingy.animal}}">
 					</div>
 				</div>
 			</div>
