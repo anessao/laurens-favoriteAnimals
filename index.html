@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Callan's Favorite Food | NSS Assignment</title>
+	<link rel="stylesheet" type="text/css" href="./lib/bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./styles/main.css">
+</head>
+<body ng-app="laurensFuzzies">
+	<div ng-controller="laurensAnimalsCtrl">
+		<div ng-class="class">
+			<div class="jumbotron">
+				<div class="container">
+					<h1>LAUREN'S</h1>
+				</div>
+			</div>
+			<div class="container">
+				<button class="col-xs-12 btn" ng-click="showSoul()">{{buttonLabel}}</button>
+				<div class="row" ng-show="animalItemShow">
+					<div class="col-xs-12 col-xs-offset-3" id="results" ng-repeat="thingy in animals">
+						<h3>{{thingy.animal}}<h3>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="./lib/bower_components/jquery/dist/jquery.js"></script>
+	<script type="text/javascript" src="./lib/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script type="text/javascript" src="./lib/bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src="./javascripts/main.js"></script>
+</body>
+</html>
